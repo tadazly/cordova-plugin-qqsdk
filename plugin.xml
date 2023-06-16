@@ -152,6 +152,7 @@
 		<!--QQ
     webview Auth Activity -->
 		<config-file target="app/src/main/AndroidManifest.xml" parent="/manifest/application">
+        	<uses-library android:name="org.apache.http.legacy" android:required="false" />
 			<activity
 				android:exported="true"
 				android:name="com.tencent.tauth.AuthActivity"
